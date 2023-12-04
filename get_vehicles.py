@@ -16,9 +16,9 @@ class Vehicle(Document):
 
 class VehicleRepository:
     def __init__(self):
-        self.client = MongoClient('10.20.3.130',
+        self.client = MongoClient(
                                   username='admin',
-                                  password='BETFfwnGZvUyFNwvHTJW',
+                                  password=
                                   authSource='admin',
                                   authMechanism='SCRAM-SHA-256')
 

@@ -17,9 +17,9 @@ class TrackRepository:
         self.last_week= None
         self.last_month=None
         self.last_year= None
-        self.client = MongoClient('10.20.3.130',
+        self.client = MongoClient(,
                                   username='admin',
-                                  password='BETFfwnGZvUyFNwvHTJW',
+                                  password=
                                   authSource='admin',
                                   authMechanism='SCRAM-SHA-256')
         self.db = self.client['fleet']
